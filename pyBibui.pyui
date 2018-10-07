@@ -1,0 +1,321 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{84, 21}, {821, 560}}",
+            "class" : "TextView",
+            "attributes" : {
+              "uuid" : "ECFDEAD8-9753-4771-B46A-4A3B76E04EDD",
+              "font_size" : 17,
+              "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+              "frame" : "{{388, 338}, {200, 200}}",
+              "editable" : true,
+              "alignment" : "left",
+              "autocorrection_type" : "default",
+              "font_name" : "<System>",
+              "spellchecking_type" : "default",
+              "class" : "TextView",
+              "name" : "bibDisplay",
+              "flex" : "RB"
+            },
+            "selected" : true
+          },
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{84, 619}, {150, 50}}",
+            "class" : "Button",
+            "attributes" : {
+              "uuid" : "10087834-4189-4BEA-B30F-F7EF60E8C36B",
+              "font_size" : 15,
+              "corner_radius" : 0,
+              "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+              "frame" : "{{448, 422}, {80, 32}}",
+              "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+              "border_width" : 1,
+              "title" : "Save Changes",
+              "action" : "save_bib",
+              "class" : "Button",
+              "name" : "buttonSaveBib",
+              "flex" : "RB"
+            },
+            "selected" : false
+          },
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{755, 619}, {150, 50}}",
+            "class" : "Button",
+            "attributes" : {
+              "uuid" : "10087834-4189-4BEA-B30F-F7EF60E8C36B",
+              "font_size" : 15,
+              "corner_radius" : 0,
+              "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+              "frame" : "{{448, 422}, {80, 32}}",
+              "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+              "border_width" : 1,
+              "title" : "Close",
+              "action" : "close_bib",
+              "class" : "Button",
+              "name" : "buttonCloseBib",
+              "flex" : "RB"
+            },
+            "selected" : false
+          }
+        ],
+        "frame" : "{{15, 20}, {980, 795}}",
+        "class" : "ScrollView",
+        "attributes" : {
+          "flex" : "WHRB",
+          "frame" : "{{340, 290}, {320, 320}}",
+          "uuid" : "D5CEDC4F-368A-4081-9C4D-16BC3E8D56F7",
+          "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "content_height" : 808,
+          "class" : "ScrollView",
+          "content_width" : 952,
+          "name" : "bibViewWindow"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{744, 239}, {150, 34}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "RB",
+          "name" : "labelKeywords",
+          "frame" : "{{545, 414}, {150, 32}}",
+          "uuid" : "228DEFF1-AB8D-41AA-9E1E-0027EAF90F17",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Keywords",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{744, 173}, {150, 40}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "7FF4790C-1BDE-47AF-A462-1D63D55480BC",
+          "font_size" : 15,
+          "corner_radius" : 0,
+          "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{580, 414}, {80, 32}}",
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "border_width" : 1,
+          "title" : "New Entry",
+          "action" : "new_entry",
+          "class" : "Button",
+          "name" : "buttonNewEntry",
+          "flex" : "RB"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{809, 775}, {150, 40}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "F12B7F8B-77DE-4BE9-B17C-CA95E30953BA",
+          "font_size" : 15,
+          "corner_radius" : 0,
+          "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{580, 414}, {80, 32}}",
+          "border_color" : "RGBA(0.073113,0.073113,0.073113,1.000000)",
+          "border_width" : 1,
+          "title" : "Reload",
+          "action" : "refresh_all",
+          "class" : "Button",
+          "name" : "buttonRefresh",
+          "flex" : "RB"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{32, 22}, {329, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "uuid" : "6782F1D9-7892-4336-9A2D-92787EF0393F",
+          "flex" : "RB",
+          "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{375, 464}, {200, 32}}",
+          "alignment" : "left",
+          "autocorrection_type" : "no",
+          "placeholder" : "Search",
+          "font_name" : "<System>",
+          "spellchecking_type" : "no",
+          "class" : "TextField",
+          "name" : "searchField",
+          "font_size" : 17
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{454, 20}, {541, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "RB",
+          "name" : "noConnectionLabel",
+          "text_color" : "RGBA(1.000000,0.166667,0.166667,1.000000)",
+          "frame" : "{{400, 464}, {150, 32}}",
+          "uuid" : "D8E2C6AD-4BCE-4F2A-B59B-19B37AE917E7",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{744, 70}, {150, 40}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "54A45C24-8DB1-4971-976A-E09A7D6D1711",
+          "font_size" : 15,
+          "corner_radius" : 0,
+          "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{580, 414}, {80, 32}}",
+          "border_color" : "RGBA(1.000000,0.041667,0.041667,1.000000)",
+          "border_width" : 1,
+          "title" : "Retry Connect",
+          "action" : "retry_connect",
+          "class" : "Button",
+          "name" : "buttonRetryConnect",
+          "flex" : "RB"
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{22, 110}, {610, 711}}",
+        "class" : "TableView",
+        "attributes" : {
+          "uuid" : "201DC9DB-D37F-43F7-8513-CA98A6C48830",
+          "data_source_action" : "",
+          "background_color" : "RGBA(1.0, 1.0, 1.0, 1.0)",
+          "frame" : "{{400, 350}, {200, 200}}",
+          "data_source_items" : "",
+          "data_source_number_of_lines" : 2,
+          "data_source_delete_enabled" : false,
+          "data_source_font_size" : 18,
+          "row_height" : 44,
+          "data_source_accessory_action" : "show_bib",
+          "class" : "TableView",
+          "name" : "tableEntries",
+          "flex" : "HRB"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{32, 62}, {150, 40}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "54A45C24-8DB1-4971-976A-E09A7D6D1711",
+          "font_size" : 15,
+          "corner_radius" : 0,
+          "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{580, 414}, {80, 32}}",
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "border_width" : 1,
+          "title" : "Search",
+          "action" : "search_filter",
+          "class" : "Button",
+          "name" : "buttonSearch",
+          "flex" : "RB"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{229.5, 62}, {150, 40}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "54A45C24-8DB1-4971-976A-E09A7D6D1711",
+          "font_size" : 15,
+          "corner_radius" : 0,
+          "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{580, 414}, {80, 32}}",
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "border_width" : 1,
+          "title" : "Clear Filters",
+          "action" : "clear_filters",
+          "class" : "Button",
+          "name" : "buttonClearFilters",
+          "flex" : "RB"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{731, 281}, {189, 473}}",
+        "class" : "TableView",
+        "attributes" : {
+          "uuid" : "F4BA3F6A-AE85-420D-ABC8-80D0013348B6",
+          "data_source_action" : "keyword_filter",
+          "corner_radius" : 0,
+          "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{520, 330}, {200, 200}}",
+          "data_source_items" : "",
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "data_source_number_of_lines" : 1,
+          "border_width" : 1,
+          "border_color" : "RGBA(0.058962,0.058962,0.058962,1.000000)",
+          "data_source_delete_enabled" : false,
+          "data_source_font_size" : 18,
+          "row_height" : 44,
+          "class" : "TableView",
+          "name" : "tableKeywords",
+          "flex" : "RB"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {1000, 821}}",
+    "class" : "View",
+    "attributes" : {
+      "flex" : "",
+      "custom_class" : "(ui.ScrollView)",
+      "enabled" : true,
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "name" : "pyBib"
+    },
+    "selected" : false
+  }
+]

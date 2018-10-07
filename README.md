@@ -9,3 +9,4 @@ in Dropbox to the bib file.
 A homepage icon can be created using the 'Shortcuts' app (formerly Workflow).
 
 
+This app is designed around my bibTeX/Jabref workflow which uses the 'Keywords' field to specify groupings of entries. Eventually, the program will allow editing and adding new entries.

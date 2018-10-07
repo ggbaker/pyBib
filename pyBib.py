@@ -148,6 +148,16 @@ class bibInfoData:
 
 
 """ Define functions associated with gui: """
+""" The following functions modify gui elements """
+
+
+def load_ui():
+	""" load_ui loads the ui at start """
+	global v, connectionStatus
+	v = ui.load_view('pyBibui')
+	initial_ui_setup()
+	v.present('full_screen')
+	return
 
 
 def initial_ui_setup():
@@ -208,6 +218,10 @@ def fill_entries_menu(entries):
 	v['tableEntries'].reload()
 	return
 	
+
+""" The following functions are called when interacting with certain elements
+of the gui: """
+
 
 def keyword_filter(sender):
 	""" keyword_filter is called when the user selects a keyword from the keyword
@@ -316,15 +330,6 @@ def retry_connect(sender):
 	""" retry_connect is called when the 'Retry' button is pressed (only active
 	if Dropbox download failed). It just restarts the program... """
 	refresh_all(sender)
-	return
-
-
-def load_ui():
-	""" load_ui loads the ui at start """
-	global v, connectionStatus
-	v = ui.load_view('pyBibui')
-	initial_ui_setup()
-	v.present('full_screen')
 	return
 	
 	

@@ -67,9 +67,9 @@ def download_and_store():
 	
 	# Format cite keys, authors, and titles in a list for display
 	allDisplayEntries = ['{:25}'.format('KEY: ' + x['ID']) +
-											 '{}'.format('AUTHOR(S): ' + x['author'])[:50] + '\n' +
-											 'TITLE: ' + x['title']
-											 for x in allBibData]
+	                     '{}'.format('AUTHOR(S): ' + x['author'])[:50] + '\n' +
+	                     'TITLE: ' + x['title']
+	                     for x in allBibData]
 	
 	# Store the above data in a bibInfoData class
 	currentlyShowing = bibInfoData(allDisplayEntries, allBibData)
@@ -212,8 +212,8 @@ def fill_entries_menu(entries):
 	entriesData.number_of_lines = 2
 	entriesData.font = ('Courier', 12)
 	entriesData.items = [{'title': x,
-												'accessory_type': 'detail_button'}
-												for x in entries]
+	                      'accessory_type': 'detail_button'}
+	                     for x in entries]
 	v['tableEntries'].data_source = entriesData
 	v['tableEntries'].reload()
 	return
